@@ -25,13 +25,25 @@
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "src/styles.css"
+              "src/styles.css",  "./node_modules/vendor/icofont/icofont.min.css",
+              "./node_modules/vendor/boxicons/css/boxicons.min.css",
+              "./node_modules/vendor/animate.css/animate.css"
+
               
 
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              
+ "./node_modules/jquery/dist/jquery.min.js",
+ "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+ "./node_modules/jquery-easing/dist/jquery.easing.1.3.umd.js",
+ "./node_modules/validate-js/validate.js",
+ "./node_modules/isotope-layout/dist/isotope.pkgd.min.js",
+ "./node_modules/venobox/venobox/venobox.min.js",
+ "./node_modules/owl.carousel/dist/owl.carousel.min.js",
+ "./node_modules/aos/dist/aos.js"
              
                       ]          },
           "configurations": {

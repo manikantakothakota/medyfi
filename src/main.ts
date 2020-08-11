@@ -11,7 +11,7 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
-  /*!(function($) {
+  !(function($) {
     "use strict";
   
     // Smooth scroll for the navigation menu and links with .scrollto classes
@@ -175,4 +175,3 @@ platformBrowserDynamic().bootstrapModule(AppModule)
     });
   
   });
-*/
