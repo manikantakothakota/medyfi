@@ -3,7 +3,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
-
+import * as AOS from 'aos';
 if (environment.production) {
   enableProdMode();
 }
@@ -11,7 +11,7 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
-/*  !(function($) {
+  /*!(function($) {
     "use strict";
   
     // Smooth scroll for the navigation menu and links with .scrollto classes
@@ -174,5 +174,5 @@ platformBrowserDynamic().bootstrapModule(AppModule)
       aos_init();
     });
   
-  })(jQuery);
+  });
 */
